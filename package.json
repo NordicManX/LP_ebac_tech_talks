@@ -2,7 +2,6 @@
   "name": "landing_page_projeto_aula_parcel",
   "version": "1.0.0",
   "description": "",
-
   "scripts": {
     "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
     "build": "parcel build src/index.html",
@@ -15,5 +14,8 @@
     "@parcel/transformer-sass": "^2.9.3",
     "parcel": "^2.9.3",
     "sharp": "^0.31.3"
+  },
+  "dependencies": {
+    "landing_page_projeto_aula_parcel": "github:NordicManX/LP_ebac_tech_talks"
   }
 }
